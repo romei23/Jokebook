@@ -1,0 +1,6 @@
+CREATE TABLE jokes (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  category TEXT NOT NULL,
+  setup TEXT NOT NULL,
+  delivery TEXT NOT NULL
+);
